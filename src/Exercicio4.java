@@ -11,6 +11,9 @@ c) Explique como chegou no resultado.
 
 public class Exercicio4 {
     public static void main(String[] args) {
-        System.out.println("A questão pergunta somente qual dos veículos estará mais próximo da cidade de Ribeirão Preto no momento em que eles se cruzam. Ao se cruzarem, os dois veículos estarão exatamente na mesma posição, independentemente das velocidades, tempo e distâncias percorridas de cada um. Portanto, os dois estarão à mesma distância da cidade de Ribeirão Preto no momento do cruzamento.");
+        System.out.println("A questão pergunta somente qual dos veículos estará mais próximo da cidade de " +
+                "Ribeirão Preto no momento em que eles se cruzam. Ao se cruzarem, os dois veículos estarão exatamente " +
+                "na mesma posição, independentemente das velocidades, tempo e distâncias percorridas de cada um. " +
+                "Portanto, os dois estarão à mesma distância da cidade de Ribeirão Preto no momento do cruzamento.");
     }
 }

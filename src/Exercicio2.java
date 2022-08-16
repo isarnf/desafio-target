@@ -40,7 +40,7 @@ public class Exercicio2 {
         System.out.println("Sequência Fibonacci até o número informado: ");
         System.out.print(fibonacci);
 
-        if(flag == 1) {
+        if(flag == 1 || numero == 0) {
             System.out.println("\nO número informado pertence à sequência Fibonacci.");
         }else{
             System.out.println("\nO número informado NÃO pertence à sequência Fibonacci.");
